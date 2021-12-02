@@ -19,21 +19,21 @@ class Hello extends Component {
             href="https://www.linkedin.com/in/alexander-paule-37600ab8/"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faLinkedin} size="2x" />
+            <FontAwesomeIcon className="icon" icon={faLinkedin} />
           </a>
           <a
             className="github"
             href="https://github.com/alecpaule"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faGithub} size="2x" />
+            <FontAwesomeIcon className="icon" icon={faGithub} />
           </a>
           <a
             className="neko"
             href="https://www.instagram.com/softboiledneko/"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faInstagram} size="2x" />
+            <FontAwesomeIcon className="icon" icon={faInstagram} />
           </a>
         </div>
       </div>
