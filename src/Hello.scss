@@ -1,14 +1,22 @@
-section {
-  width: 70%;
-  height: 50%;
-  border-radius: 30px;
-  box-shadow: 8px 8px 20px 8px #7090b0;
-  background-color: rgba(245, 245, 245, 0.598);
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Bungee+Outline&display=swap");
 
-  h1,
-  p {
+.hello {
+  h1 {
+    font-family: "Bungee Hairline", cursive;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+  }
+
+  .links {
     display: flex;
     justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  a {
+    color: white;
   }
 }

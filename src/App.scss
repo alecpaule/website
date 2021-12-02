@@ -12,11 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
-  background: linear-gradient(
-      217deg,
-      rgb(178, 180, 232),
-      rgba(178, 180, 232, 0) 80%
-    ),
-    linear-gradient(127deg, rgb(130, 212, 187), rgba(130, 212, 187, 0) 80%),
-    linear-gradient(336deg, #ffc15e, rgba(255, 193, 94, 0) 80%);
+  background: linear-gradient(127deg, #646e78, #646e7800 80%),
+    linear-gradient(217deg, #0f084b, #0f084b00 80%),
+    linear-gradient(336deg, #dcccbb, #dcccbb00 80%);
 }
