@@ -18,6 +18,7 @@ class Hello extends Component {
             className="linkedin"
             href="https://www.linkedin.com/in/alexander-paule-37600ab8/"
             target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon className="icon" icon={faLinkedin} />
           </a>
@@ -25,6 +26,7 @@ class Hello extends Component {
             className="github"
             href="https://github.com/alecpaule"
             target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon className="icon" icon={faGithub} />
           </a>
@@ -32,6 +34,7 @@ class Hello extends Component {
             className="neko"
             href="https://www.instagram.com/softboiledneko/"
             target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon className="icon" icon={faInstagram} />
           </a>
